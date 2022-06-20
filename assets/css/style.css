@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'PT Sans Capition', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+}
+
+header .logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header .menu{
+    width: 30px;
+    height: 20px;
+    display: flex;
+}
+
+header .menu-line{
+    height: 20px;
+    background-color: #333;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.container .leftside{
+    flex:1;
+    background-color: #3B576D;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container .rightside{
+    flex:1;
+    background-image: url(../images/eee.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.container .info{
+    color: #FFF;
+}
+
+.container .info .profession{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+    
+
+.container .info .name{
+    font-weight: bold;
+    font-size: 88px;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+
+.container .info .buttons a{
+    display: inline-block;
+    background-color: #FFF;
+    color: #3B576D;
+    padding: 22px 44px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    box-shadow: 0px 0px 11px #111;
+    border-radius: 5px;
+    margin-right: 11px;
+}
+
+.container .info .buttons a.light{
+    color: #FFF;
+    background-color:#3B576D;
+}
+
+.container .info .buttons a:hover{
+    opacity: 0.8;
+}
+footer{
+    position: fixed;
+    padding: 22px;
+    color: #FFF;
+    font-size: 13px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
